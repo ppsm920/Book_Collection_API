@@ -38,7 +38,7 @@ This project is done for an Erewhon take-home assignment by Sumin Kim :smile:
 
 
   ### Set up ###
-  1. Clone the repository : `git clone <repo-url>`
+  1. Clone the repository : `git clone https://github.com/ppsm920/Book_Collection_API.git`
   2. Install dependencies : `npm install`
   3. Configure environment variables 
      : update '.env' file, filling in your MySQL database connection details 
