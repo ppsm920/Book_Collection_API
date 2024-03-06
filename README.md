@@ -26,27 +26,27 @@ This project is done for an Erewhon take-home assignment by Sumin Kim :smile:
     * Download and locate the Dump file 
     * Navigate to the directory where the Dump file is located 
     : type `cd path/to/directory` in the terminal
-    * Log in to MySQL (require YOUR MySQL username / password ) 
-    : type `mysql -u YOUR_MYSQL_USERNAME -p` 
-    * Create a new database where we can embed the Dump file I provided 
-    : type `CREATE DATABASE anyNameForDB`
-      * anyNameForDB : you can name it anything you want
+    * Log in to MySQL (require YOUR MySQL username / password ) <br>
+    type `mysql -u YOUR_MYSQL_USERNAME -p` 
+    * Create a new database where we can embed the Dump file I provided <br>
+    type `CREATE DATABASE anyNameForDB`
+      :star2: anyNameForDB : you can name it anything you want
     * Import the Dump file
-    : type `mysql -u YOUR_MYSQL_USERNAME -p anyNameForDB < path/to/dumpFile.sql` 
-      * 'path/to/dumpFile.sql' : needed an actual path to the dump file (where you saved it earlier)
-    * Now you can test and review the db contents as needed :smile:
+    : type `mysql -u YOUR_MYSQL_USERNAME -p anyNameForDB < path/to/dumpFile.sql` <br>
+      :star2:'path/to/dumpFile.sql' : needed an actual path to the dump file (where you saved it earlier)
+    * Now you can test and review the db contents as needed :thumbsup:
 
 
   ### Set up ###
   1. Clone the repository : `git clone https://github.com/ppsm920/Book_Collection_API.git`
   2. Install dependencies : `npm install`
   3. Configure environment variables 
-     : update '.env' file, filling in your MySQL database connection details 
+     : update '.env' file, filling in your MySQL database connection details <br>
     <u>(DB name you created in previous step | your MySQL username & password)</u>
   4. Start the server : `npm start` 
   
-  * I personally recommend to use <u>Postman</u> 
-    to test CRUD operation & Search/Stats functionalities :smile:
+  :star: I personally recommend to use <u>Postman</u> 
+    to test CRUD operation & Search/Stats functionalities :star:
 
   ### API Endpoints ###
  * GET `/books` : it also supports pagination via `?page=` & `?limit=` query parameters
